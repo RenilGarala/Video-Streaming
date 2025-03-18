@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #15152a;
+}
+
+.container {
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.search{
+    text-align: center;
+}
+
+.search-btn{
+    border: none;
+    padding: 20px 22px;
+    margin: 20px 0px 0px 0px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #2b2b51;
+    outline: none;
+    color: #e2e2e2;
+
+    @media (max-width: 600px) {
+        width:85%;
+        margin: 20px;
+    }
+}
+
+.video-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+.video{
+    /* border: 2px solid #2d2d5a; */
+    padding: 15px;
+    height: auto;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #e2e2e2;
+    background-color: #2b2b51;
+    font-family:'Lucida Sans', sans-serif;
+}
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 0px 10px 0px;
+    background-color: #2b2b51;
+
+}
+.channel {
+    font-size: 15px;
+    color: #cecece89;
+    margin: 0px 0px 20px;
+    background-color: #2b2b51;
+
+}
+
+.state{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2b51;
+}
+
+.view{
+    font-size: 15px;
+    background-color: #2b2b51;
+}
+.published-time{
+    font-size: 15px;
+    background-color: #2b2b51;
+}
